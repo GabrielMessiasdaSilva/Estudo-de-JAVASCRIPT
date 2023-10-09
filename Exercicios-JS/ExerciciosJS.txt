@@ -1,250 +1,329 @@
+Claro! Aqui estão 200 exercícios, projetos e sistemas em JavaScript para você praticar e aprimorar suas habilidades:
 
+Exercícios Básicos:
 
+Soma de Inteiros:
+Escreva um programa que recebe dois números inteiros e retorna a soma deles.
 
-2. Faça um script que pede duas notas de um aluno. Em seguida ele deve calcular a média do aluno e dar o seguinte resultado:
+Número Primo:
+Crie uma função que verifica se um número dado é primo.
 
-    A mensagem "Aprovado", se a média alcançada for maior ou igual a sete;
-    A mensagem "Reprovado", se a média for menor do que sete;
-    A mensagem "Aprovado com Distinção", se a média for igual a dez.
-Calcular média de dois números
+Fatorial:
+Escreva um programa que calcula o fatorial de um número.
 
-3. Faça um script que leia três números inteiros e mostre o maior deles.
-Recebe três números e mostra o maior
+Soma dos N primeiros números:
+Crie um programa que calcula a soma dos primeiros N números naturais.
 
-4. Faça um script que pede dois inteiros e armazene eles em duas variáveis. Em seguida, troque o valor das variáveis, invertendo e exibindo o antes e o depois em uma janela de alert.
-Fazer duas variáveis trocarem de valores entre si - Variável Auxiliar
+Múltiplos de 3 e 5:
+Escreva um programa que encontre a soma de todos os múltiplos de 3 ou 5 abaixo de um número N.
 
-5. Faça um script que leia três números inteiros, em seguida mostre o maior e o menor deles.
-Maior ou menor número
+Sequência de Fibonacci:
+Crie um programa que gere a sequência de Fibonacci até um número N.
 
-6. Faça um script que leia três números e mostre-os em ordem decrescente.
-Exibe números em ordem decrescente
+Verificador de Ano Bissesto:
+Desenvolva um programa que verifica se um ano é bissexto ou não.
 
-7. Faça um script que pergunte em que turno você estuda. Peça para digitar M-matutino ou V-Vespertino ou N- Noturno. Imprima a mensagem "Bom Dia!", "Boa Tarde!" ou "Boa Noite!" ou "Valor Inválido!", conforme o caso.
+Palíndromo:
+Escreva um programa que verifica se uma palavra ou frase é um palíndromo (ou seja, lê-se da mesma forma de trás para frente).
 
-8. As Organizações Tabajara resolveram dar um aumento de salário aos seus colaboradores e lhe contrataram para desenvolver um script que calculará os reajustes.
-Faça um script que recebe o salário de um colaborador e o reajuste segundo o seguinte critério, baseado no salário atual:
+Ordenação de Lista:
+Implemente um algoritmo de ordenação, como o Bubble Sort ou o Quick Sort.
 
-    salários até R$ 280,00 (incluindo) : aumento de 20%
-    salários entre R$ 280,00 e R$ 700,00 : aumento de 15%
-    salários entre R$ 700,00 e R$ 1500,00 : aumento de 10%
-    salários de R$ 1500,00 em diante : aumento de 5% Após o aumento ser realizado, informe na tela:
-    o salário antes do reajuste;
-    o percentual de aumento aplicado;
-    o valor do aumento;
-    o novo salário, após o aumento.
+Conversão de Temperatura:
+Crie um programa que converte uma temperatura de Celsius para Fahrenheit e vice-versa.
 
-9. Faça um script para o cálculo de uma folha de pagamento, sabendo que os descontos são do Imposto de Renda, que depende do salário bruto (conforme tabela abaixo) e 3% para o Sindicato e que o FGTS corresponde a 11% do Salário Bruto, mas não é descontado (é a empresa que deposita). O Salário Líquido corresponde ao Salário Bruto menos os descontos. O script deverá pedir ao usuário o valor da sua hora e a quantidade de horas trabalhadas no mês.
+Contagem de Vogais:
+Escreva uma função que conta o número de vogais em uma string.
 
-    Desconto do IR:
-    Salário Bruto até 900 (inclusive) - isento
-    Salário Bruto até 1500 (inclusive) - desconto de 5%
-    Salário Bruto até 2500 (inclusive) - desconto de 10%
+Cálculo de Juros Compostos:
+Faça um programa que calcule o montante final de um investimento com juros compostos.
 
-    Salário Bruto acima de 2500 - desconto de 20% Imprima na tela as informações, dispostas conforme o exemplo abaixo. No exemplo o valor da hora é 5 e a quantidade de hora é 220.
+Divisibilidade:
+Escreva um programa que verifica se um número é divisível por outro.
 
-    Salário Bruto: (5 * 220)        : R$ 1100,00
-    (-) IR (5%)                                : R$   55,00
-    (-) INSS ( 10%)                       : R$  110,00
-    FGTS (11%)                            : R$  121,00
-    Total de descontos                : R$  165,00
-    Salário Liquido                       : R$  935,00
+Contagem de Dígitos:
+Crie uma função que conta quantos dígitos há em um número inteiro.
 
+Soma de Dígitos:
+Desenvolva um programa que calcula a soma dos dígitos de um número.
 
-10. Faça um script que leia um número e exiba o dia correspondente da semana. (1-Domingo, 2- Segunda, etc.), se digitar outro valor deve aparecer valor inválido.
+Tabuada:
+Escreva um programa que exiba a tabuada de multiplicação de um número.
 
+Conversão de Bases Numéricas:
+Faça um programa que converta um número de uma base numérica para outra (por exemplo, de binário para decimal).
 
-11. Faça um script que lê as duas notas parciais obtidas por um aluno numa disciplina ao longo de um semestre, e calcule a sua média. A atribuição de conceitos obedece à tabela abaixo:
+Calculadora Simples:
+Implemente uma calculadora que pode realizar operações de adição, subtração, multiplicação e divisão.
 
-      Média de Aproveitamento  Conceito
-      Entre 9.0 e 10.0                      A
-      Entre 7.5 e 9.0                        B
-      Entre 6.0 e 7.5                        C
-      Entre 4.0 e 6.0                        D
-      Entre 4.0 e zero                      E
-    O algoritmo deve mostrar numa janela de alert as notas, a média, o conceito correspondente e a mensagem “APROVADO” se o conceito for A, B ou C ou “REPROVADO” se o conceito for D ou E.
+Fatorial de um Número usando Recursão:
+Calcule o fatorial de um número usando uma função recursiva.
 
+Média de Notas:
+Escreva um programa que calcula a média de notas de um aluno.
 
-12. Faça um script que peça os 3 lados de um triângulo. O script deverá informar se os valores podem ser um triângulo. Indique, caso os lados formem um triângulo, se o mesmo é: equilátero, isósceles ou escaleno.
+Crie um programa que exiba "Olá, Mundo!" na tela.
+Escreva um programa que calcule a soma de dois números.
+Desenvolva um programa que subtraia um número de outro.
+Crie um programa que multiplique dois números.
+Escreva um programa que divida um número por outro.
+Implemente um programa que calcule o resto da divisão de um número por outro.
+Desenvolva um programa que converta graus Celsius para Fahrenheit.
+Crie um programa que calcule a área de um círculo com base no raio.
+Escreva um programa que calcule o quadrado de um número.
+Implemente um programa que calcule a raiz quadrada de um número.
+Manipulação de Strings:
 
-    Dicas:
-    Três lados formam um triângulo quando a soma de quaisquer dois lados for maior que o terceiro;
-    Triângulo Equilátero: três lados iguais;
-    Triângulo Isósceles: quaisquer dois lados iguais;
-    Triângulo Escaleno: três lados diferentes;
+Crie um programa que concatene duas strings.
+Escreva um programa que retorne o tamanho de uma string.
+Desenvolva um programa que converta uma string para letras maiúsculas.
+Implemente um programa que converta uma string para letras minúsculas.
+Crie um programa que conte quantas vezes uma letra aparece em uma string.
+Escreva um programa que remova espaços em branco de uma string.
+Desenvolva um programa que substitua um caractere por outro em uma string.
+Implemente um programa que verifique se uma string contém outra.
+Crie um programa que divida uma string em um array de substrings.
+Escreva um programa que inverta uma string.
+Estruturas Condicionais:
 
+Implemente um programa que verifique se um número é positivo ou negativo.
+Crie um programa que determine se um número é par ou ímpar.
+Escreva um programa que compare dois números e mostre o maior deles.
+Desenvolva um programa que verifique se um número é múltiplo de outro.
+Implemente um programa que determine se um ano é bissexto.
+Crie um programa que classifique uma pessoa como maior de idade ou menor de idade com base na idade fornecida.
+Escreva um programa que calcule o IMC (Índice de Massa Corporal) com base no peso e altura.
+Desenvolva um programa que determine a categoria de um nadador com base na idade.
+Implemente um programa que calcule o preço de um produto com desconto de acordo com a quantidade comprada.
+Crie um programa que verifique se um número está dentro de um intervalo especificado.
+Laços de Repetição:
 
-13. Faça um script que calcule as raízes de uma equação do segundo grau, na forma ax² + bx + c. O script deverá pedir os valores de a, b e c e fazer os testes necessários.
-Encontrar raízes de uma equação do segundo grau
-
-
-14. Faça um script que peça um número correspondente a um determinado ano e em seguida informe se este ano é ou não bissexto.
-Ano bissexto em JavaScript
-
-
-15. Faça um script que peça uma data no formato dd/mm/aaaa e determine se a mesma é uma data válida.
-Validar data em JavaScript
-
-16. Faça um script que peça um número inteiro e determine se ele é par ou ímpar.
-Dica: utilize o operador módulo (resto da divisão): %
-Par ou Ímpar em JS
-
-
-17. Faça um script que leia um número inteiro menor que 1000 e imprima a quantidade de centenas, dezenas e unidades do mesmo.
-Observando os termos no plural a colocação do "e", da vírgula entre outros. Exemplo:
-
-326 = 3 centenas, 2 dezenas e 6 unidades
-12 = 1 dezena e 2 unidades Testar com: 326, 300, 100, 320, 310,305, 301, 101, 311, 111, 25, 20, 10, 21, 11, 1, 7 e 16
-
-
-18. Faça um script para um caixa eletrônico. O script deverá perguntar ao usuário a valor do saque e depois informar quantas notas de cada valor serão fornecidas. As notas disponíveis serão as de 1, 5, 10, 50 e 100 reais. O valor mínimo é de 10 reais e o máximo de 600 reais. O script não deve se preocupar com a quantidade de notas existentes na máquina.
-
- Exemplo: Para sacar a quantia de 256 reais, o script fornece duas notas de 100, uma nota de 50, uma nota de 5 e uma nota de 1;
- Exemplo: Para sacar a quantia de 399 reais, o script fornece três notas de 100, uma nota de 50, quatro notas de 10, uma nota de 5 e quatro notas de 1.
-
-
-
-19.Faça um script que peça um número e informe se o número é inteiro ou decimal. Dica: utilize uma função de arredondamento.
-
-
-20. Faça um script que leia 2 números e em seguida pergunte ao usuário qual operação ele deseja realizar. O resultado da operação deve ser acompanhado de uma frase que diga se o número é:
-
-    par ou ímpar;
-    positivo ou negativo;
-    inteiro ou decimal.
-
-
-21. Faça um script que faça 5 perguntas para uma pessoa sobre um crime. As perguntas são:
-    "Telefonou para a vítima?"
-    "Esteve no local do crime?"
-    "Mora perto da vítima?"
-    "Devia para a vítima?"
-    "Já trabalhou com a vítima?" O script deve no final emitir uma classificação sobre a participação da pessoa no crime. Se a pessoa responder positivamente a 2 questões ela deve ser classificada como "Suspeita", entre 3 e 4 como "Cúmplice" e 5 como "Assassino". Caso contrário, ele será classificado como "Inocente".
-
-
-22. Um posto está vendendo combustíveis com a seguinte tabela de descontos:
-    Álcool: até 20 litros, desconto de 3% por litro
-    acima de 20 litros, desconto de 5% por litro
-
-    Gasolina:
-    até 20 litros, desconto de 4% por litro
-    acima de 20 litros, desconto de 6% por litro Escreva um algoritmo que leia o número de litros vendidos, o tipo de combustível (codificado da seguinte forma: A-álcool, G-gasolina), calcule e imprima o valor a ser pago pelo cliente sabendo-se que o preço do litro da gasolina é R$ 2,50 o preço do litro do álcool é R$ 1,90.
-
-
-23. Uma fruteira está vendendo frutas com a seguinte tabela de preços:
-                          Até 5 Kg                 Acima de 5 Kg
-    Morango         R$ 2,50 por Kg          R$ 2,20 por Kg
-    Maçã              R$ 1,80 por Kg          R$ 1,50 por Kg
-    Se o cliente comprar mais de 8 Kg em frutas ou o valor total da compra ultrapassar R$ 25,00, receberá ainda um desconto de 10% sobre este total. Escreva um algoritmo para ler a quantidade (em Kg) de morangos e a quantidade (em Kg) de maças adquiridas e escreva o valor a ser pago pelo cliente.
-
-
-24. O Hipermercado Tabajara está com uma promoção de carnes que é imperdível. Confira:
-                          Até 5 Kg               Acima de 5 Kg
-    File Duplo      R$ 4,90 por Kg          R$ 5,80 por Kg
-    Alcatra           R$ 5,90 por Kg          R$ 6,80 por Kg
-    Picanha          R$ 6,90 por Kg          R$ 7,80 por Kg
-    Para atender a todos os clientes, cada cliente poderá levar apenas um dos tipos de carne da promoção, porém não há limites para a quantidade de carne por cliente. Se compra for feita no cartão Tabajara o cliente receberá ainda um desconto de 5% sobre o total a compra. Escreva um script que peça o tipo e a quantidade de carne comprada pelo usuário e gere um cupom fiscal, contendo as informações da compra: tipo e quantidade de carne, preço total, tipo de pagamento, valor do desconto e valor a pagar.
-
-
-
-
-
-
-
-Estruturas de controle:
-
-11. Crie uma estrutura de controle que verifica se um número é maior que 10 e exiba uma mensagem caso seja verdadeiro.
-12. Crie uma estrutura de controle que verifica se um número é positivo, negativo ou zero e exiba uma mensagem de acordo com o resultado.
-13. Crie uma estrutura de controle que verifica se um número é par ou ímpar e exiba uma mensagem de acordo com o resultado.
-14. Crie uma estrutura de controle que verifica se um ano é bissexto e exiba uma mensagem de acordo com o resultado.
-15. Crie uma estrutura de controle que verifica se um número é primo e exiba uma mensagem de acordo com o resultado.
-16. Crie uma estrutura de controle que verifica se uma letra é uma vogal ou uma consoante e exiba uma mensagem de acordo com o resultado.
-17. Crie uma estrutura de controle que verifica se um número é divisível por 3 e por 5 e exiba uma mensagem de acordo com o resultado.
-18. Crie uma estrutura de controle que verifica se uma palavra é um palíndromo (ou seja, se pode ser lida da mesma forma da esquerda para a direita e vice-versa) e exiba uma mensagem de acordo com o resultado.
-19. Crie uma estrutura de controle que verifica se um número está no intervalo de 10 a 20 e exiba uma mensagem de acordo com o resultado.
-20. Crie uma estrutura de controle que verifica se um número é múltiplo de 3 ou de 5 e exiba uma mensagem de acordo com o resultado.
-
-Laços de repetição:
-
-21. Crie um loop que exiba os números de 1 a 10 na tela.
-22. Crie um loop que exiba os números pares de 1 a 10 na tela.
-23. Crie um loop que exiba a tabuada do 5 (de 1 a 10) na tela.
-24. Crie um loop que exiba a sequência de Fibonacci até o décimo termo.
-25. Crie um loop que exiba os números ímpares de 10 a 1 na tela.
-26. Crie um loop que exiba os números primos de 1 a 100 na tela.
-27. Crie um loop que exiba os números divisíveis por 3 de 1 a 100 na tela.
-28. Crie um loop que exiba os números de 1 a 100, substituindo os múltiplos de 3 pela palavra "Fizz" e os múltiplos de 5 pela palavra "Buzz".
-29. Crie um loop que exiba os números de 1 a 100, substituindo os múltiplos de 3 pela palavra "Fizz", os múltiplos de 5 pela palavra "Buzz" e os múltiplos de ambos por "FizzBuzz".
-30. Crie um loop que exiba os números de 1 a 100, substituindo os múltiplos de 3 pela palavra "Fizz", os múltiplos de 5 pela palavra "Buzz", os múltiplos de 7 pela palavra "Woof" e os múltiplos de 3, 5 e 7 por "FizzBuzzWoof".
-
+Escreva um programa que exiba os números de 1 a 10 usando um loop for.
+Desenvolva um programa que exiba os números pares de 1 a 20 usando um loop while.
+Implemente um programa que calcule a soma dos números de 1 a 100 usando um loop for.
+Crie um programa que gere a sequência de Fibonacci até o décimo termo usando um loop while.
+Crie um programa que exiba os números primos de 1 a 50 usando um loop for.
+Implemente um programa que calcule o fatorial de um número usando um loop while.
+Desenvolva um programa que exiba os números de 10 a 1 usando um loop for.
+Escreva um programa que conte quantas vezes uma letra aparece em uma string usando um loop for.
+Crie um programa que exiba a tabuada do 7 usando um loop for.
+Implemente um programa que encontre o maior valor em um array de números usando um loop for.
 Arrays:
 
-31. Crie um array com os números de 1 a 10 e exiba-o na tela.
-32. Crie um array com as letras do alfabeto e exiba-o na tela.
-33. Crie um array com os nomes de 5 pessoas e exiba-o na tela.
-34. Crie um array com os números pares de 1 a 10 e exiba-o na tela.
-35. Crie um array com os números ímpares de 1 a 10 e exiba-o na tela.
-36. Crie um array com os números primos de 1 a 100 e exiba-o na tela.
-37. Crie um array com os números de 1 a 100 e exiba a soma de todos os elementos na tela.
-38. Crie um array com os números de 1 a 100 e exiba o maior valor presente no array.
-39. Crie um array com os números de 1 a 100 e exiba o menor valor presente no array.
-40. Crie um array com os números de 1 a 100 e exiba a média dos valores presentes no array.
-
+Crie um programa que gere um array com os números de 1 a 10.
+Escreva um programa que some os elementos de um array de números.
+Desenvolva um programa que encontre o maior valor em um array de números.
+Implemente um programa que calcule a média dos valores em um array de números.
+Crie um programa que ordene um array de números em ordem crescente.
+Escreva um programa que remova elementos duplicados de um array.
+Desenvolva um programa que encontre o índice de um elemento em um array.
+Implemente um programa que adicione elementos a um array.
+Crie um programa que inverta a ordem dos elementos em um array.
+Escreva um programa que filtre os números pares de um array.
 Funções:
 
-41. Crie uma função que recebe um número como parâmetro e retorna o seu dobro.
-42. Crie uma função que recebe dois números como parâmetros e retorna a soma deles.
-43. Crie uma função que recebe um número como parâmetro e retorna `true` se ele for par ou `false` caso contrário.
-44. Crie uma função que recebe uma palavra como parâmetro e retorna `true` se ela for um palíndromo ou `false` caso contrário.
-45. Crie uma função que recebe um número como parâmetro e retorna `true` se ele for primo ou `false` caso contrário.
-46. Crie uma
+Implemente uma função que calcule o dobro de um número.
+Crie uma função que verifique se um número é primo.
+Escreva uma função que retorne o maior valor entre dois números.
+Desenvolva uma função que inverta uma string.
+Implemente uma função que calcule a área de um retângulo.
+Crie uma função que calcule o volume de uma esfera.
+Escreva uma função que determine se uma palavra é um palíndromo.
+Desenvolva uma função que retorne o número de letras em uma string.
+Implemente uma função que calcule o quadrado de um número.
+Crie uma função que retorne o menor valor em um array de números.
+Manipulação do DOM (Document Object Model):
 
- função que recebe uma palavra como parâmetro e retorna o seu comprimento.
-47. Crie uma função que recebe um array de números como parâmetro e retorna a soma de todos os elementos.
-48. Crie uma função que recebe um array de números como parâmetro e retorna o maior valor presente no array.
-49. Crie uma função que recebe um array de números como parâmetro e retorna o menor valor presente no array.
-50. Crie uma função que recebe um array de números como parâmetro e retorna a média dos valores presentes no array.
+Escreva um programa que altere o texto de um elemento HTML.
+Desenvolva um programa que altere o estilo de um elemento HTML.
+Implemente um programa que adicione um novo elemento HTML a uma página.
+Crie um programa que remova um elemento HTML de uma página.
+Escreva um programa que capture o clique em um botão HTML e exiba uma mensagem.
+Desenvolva um programa que valide um formulário HTML antes do envio.
+Implemente um programa que altere o conteúdo de uma lista HTML.
+Crie um programa que adicione classes a elementos HTML.
+Escreva um programa que manipule atributos de elementos HTML.
+Desenvolva um programa que crie uma tabela HTML a partir de um array de dados.
+Eventos:
 
+Implemente um programa que responda a eventos de clique em diferentes elementos HTML.
+Crie um programa que registre eventos de teclado e exiba as teclas pressionadas.
+Escreva um programa que responda a eventos de mouse, como hover e click.
+Desenvolva um programa que use eventos de temporização para exibir mensagens em intervalos regulares.
+Implemente um programa que responda a eventos de formulário, como envio e alteração de valores.
+Validação de Formulários:
 
+Crie um programa que valide um formulário de login, verificando se os campos estão preenchidos.
+Escreva um programa que verifique se um campo de senha atende a critérios de segurança, como comprimento mínimo e caracteres especiais.
+Desenvolva um programa que valide um campo de e-mail, verificando se ele possui um formato válido.
+Implemente um programa que valide um campo de CPF, verificando se é um CPF válido.
+Crie um programa que verifique se duas senhas digitadas em campos diferentes são iguais.
+Manipulação de Dados:
 
-    Mais Exercicios
+Escreva um programa que faça requisições HTTP para obter dados de uma API e exiba-os na página.
+Desenvolva um programa que armazene dados em cookies e recupere-os posteriormente.
+Implemente um programa que use o armazenamento local para salvar e recuperar dados.
+Crie um programa que manipule dados em um banco de dados SQLite usando JavaScript.
+Escreva um programa que permita ao usuário adicionar e remover itens de uma lista de tarefas.
+Projeto: Calculadora Web:
 
-    Aqui estão mais de 100 exercícios de lógica em JavaScript, que abrangem desde conceitos básicos até o ECMAScript, juntamente com alguns programas simples de manipulação de HTML:
+Desenvolva uma calculadora web com interface de usuário para realizar operações matemáticas básicas.
+Adicione funcionalidades avançadas à calculadora, como cálculo de raiz quadrada e porcentagem.
+Implemente uma interface de usuário responsiva para a calculadora, adequada para dispositivos móveis.
+Crie um histórico das operações realizadas na calculadora.
+Adicione suporte para teclas de atalho para as operações matemáticas.
+Projeto: Lista de Tarefas:
 
-Lógica de JavaScript:
+Desenvolva uma aplicação de lista de tarefas onde o usuário pode adicionar, marcar como concluída e excluir tarefas.
+Implemente a capacidade de editar tarefas existentes na lista.
+Adicione uma opção de filtragem para mostrar tarefas concluídas, não concluídas ou todas.
+Crie um sistema de notificação para lembrar o usuário de tarefas pendentes.
+Permita que o usuário organize as tarefas arrastando e soltando.
+Projeto: Jogo da Velha:
 
-1. Escreva um programa para imprimir "Olá, mundo!" no console.
-2. Crie uma função para verificar se um número é par ou ímpar.
-3. Escreva um programa para verificar se um número é positivo, negativo ou zero.
-4. Crie uma função para calcular a soma dos elementos de um array.
-5. Escreva um programa para encontrar o maior elemento em um array.
-6. Crie uma função para inverter uma string.
-7. Escreva um programa para verificar se uma palavra é um palíndromo.
-8. Crie uma função para calcular o fatorial de um número.
-9. Escreva um programa para imprimir os números de 1 a 100. Para múltiplos de 3, imprima "Fizz" em vez do número, e para múltiplos de 5, imprima "Buzz". Para números que são múltiplos de 3 e 5, imprima "FizzBuzz".
-10. Crie uma função para verificar se um número é primo.
-11. Escreva um programa para encontrar a soma de todos os números primos menores ou iguais a 100.
-12. Crie uma função para calcular a média de um array de números.
-13. Escreva um programa para encontrar o segundo maior número em um array.
-14. Crie uma função para verificar se um ano é bissexto.
-15. Escreva um programa para imprimir a tabela de multiplicação de 1 a 10.
-16. Crie uma função para calcular a raiz quadrada de um número.
-17. Escreva um programa para encontrar o número mais frequente em um array.
-18. Crie uma função para verificar se uma string contém apenas dígitos.
-19. Escreva um programa para verificar se uma frase é um pangrama (contém todas as letras do alfabeto).
-20. Crie uma função para ordenar um array em ordem crescente.
+Escreva um jogo da velha (Tic-Tac-Toe) jogável no navegador.
+Implemente um sistema de vitória e empate no jogo da velha.
+Adicione uma opção de reiniciar o jogo.
+Crie um modo de jogo para dois jogadores locais e um contra o computador.
+Desenvolva uma inteligência artificial para o computador jogar contra o jogador.
+Projeto: Conversor de Moedas:
 
-Manipulação de HTML em JavaScript:
+Crie um conversor de moedas que permita ao usuário converter entre diferentes moedas.
+Implemente a funcionalidade de atualização automática das taxas de câmbio.
+Adicione um histórico de conversões para o usuário.
+Desenvolva uma interface de usuário atraente com gráficos para exibir as tendências de câmbio.
+Permita ao usuário configurar notificações de taxas de câmbio.
+Projeto: Aplicação de Clima:
 
-21. Crie um programa que altere a cor de fundo de uma página HTML quando um botão é clicado.
-22. Escreva um programa para adicionar um novo elemento à lista de um HTML.
-23. Crie uma função para ocultar um elemento HTML quando um botão é clicado.
-24. Escreva um programa para alternar a visibilidade de um elemento HTML quando um botão é clicado.
-25. Crie um programa que exiba uma mensagem de saudação personalizada com base no nome inserido em um campo de entrada HTML.
-26. Escreva um programa para criar uma calculadora simples em HTML e JavaScript.
-27. Crie um programa que valide um formulário HTML antes de enviá-lo.
-28. Escreva um programa para exibir a hora atual em um elemento HTML atualizado automaticamente.
-29. Crie um programa que adicione um novo parágrafo ao HTML sempre que uma tecla for pressionada em um campo de entrada.
-30. Escreva um programa para criar um slideshow de imagens em HTML e JavaScript.
+Desenvolva uma aplicação de previsão do tempo que mostre as condições climáticas atuais e futuras.
+Implemente uma pesquisa por localização para obter informações de clima de diferentes cidades.
+Adicione gráficos e representações visuais das condições climáticas.
+Crie uma opção para receber alertas meteorológicos por e-mail.
+Integre mapas interativos para visualizar a previsão do tempo em um mapa.
+Projeto: Aplicação de To-Do List em Tempo Real:
 
-Esses são apenas alguns exemplos de exercícios de lógica em JavaScript e programas de manipulação de HTML. Você pode expandir essa lista e criar mais desafios à medida que avança em seu aprendizado. Lembre-se de experimentar e praticar para aprimorar
+Implemente uma aplicação de lista de tarefas em tempo real que sincronize as alterações em tempo real entre vários usuários.
+Adicione funcionalidades de login e autenticação de usuário.
+Desenvolva um sistema de notificação em tempo real para atualizações de tarefas.
+Crie um histórico de atividades para cada usuário.
+Permita a colaboração em tempo real em tarefas compartilhadas.
+Projeto: Jogo de Quebra-Cabeça (Puzzle):
+
+Escreva um jogo de quebra-cabeça (puzzle) que permita ao usuário embaralhar e reorganizar as peças para formar uma imagem.
+Implemente uma funcionalidade de temporização para medir o tempo gasto na resolução do quebra-cabeça.
+Adicione níveis de dificuldade com diferentes números de peças.
+Crie uma opção para carregar imagens personalizadas para o quebra-cabeça.
+Desenvolva um sistema de pontuação com base no tempo e na dificuldade.
+Projeto: Aplicação de Gerenciamento de Finanças Pessoais:
+
+Desenvolva uma aplicação de gerenciamento de finanças pessoais que permita ao usuário registrar despesas e receitas.
+Implemente categorias personalizadas para despesas e receitas.
+Adicione gráficos e relatórios para visualizar o fluxo de caixa.
+Crie um sistema de orçamento mensal e alertas para gastos excessivos.
+Permita a exportação de dados financeiros para planilhas.
+Projeto: Sistema de Reservas de Passagens Aéreas:
+
+Crie um sistema de reservas de passagens aéreas que permita ao usuário selecionar voos, datas e assentos.
+Implemente um sistema de pagamento online para confirmar a reserva.
+Adicione um sistema de notificação por e-mail com detalhes da reserva.
+Desenvolva um painel de administração para gerenciar voos e assentos disponíveis.
+Integre um sistema de busca de voos em tempo real.
+Projeto: Aplicação de Chat em Tempo Real:
+
+Implemente uma aplicação de chat em tempo real que permita aos usuários conversar uns com os outros.
+Desenvolva funcionalidades de login e autenticação de usuário.
+Adicione suporte para criação de grupos de chat.
+Crie recursos de mensagens multimídia, como envio de imagens e arquivos.
+Implemente notificações em tempo real para mensagens recebidas.
+Projeto: Jogo de Labirinto:
+
+Escreva um jogo de labirinto em que o jogador deve encontrar a saída evitando obstáculos.
+Crie labirintos gerados aleatoriamente para desafios diferentes a cada jogo.
+Implemente uma interface de usuário para controlar o jogador.
+Adicione temporizadores para medir o tempo necessário para concluir o labirinto.
+Desenvolva um sistema de pontuação com base no tempo e no número de movimentos.
+Projeto: Aplicação de Redes Sociais:
+
+Desenvolva uma aplicação de rede social que permita aos usuários criar perfis, postar atualizações e interagir com outros usuários.
+Implemente um sistema de seguidores e seguidos.
+Adicione funcionalidades de curtir, comentar e compartilhar postagens.
+Crie um feed de notícias personalizado para cada usuário.
+Permita a integração com outras redes sociais para compartilhamento de conteúdo.
+Projeto: Jogo de Cartas (Blackjack):
+
+Crie um jogo de cartas Blackjack jogável no navegador.
+Implemente um sistema de regras completo, incluindo apostas e pontuações.
+Adicione recursos para dividir cartas e dobrar apostas.
+Desenvolva uma inteligência artificial para atuar como o dealer do jogo.
+Crie uma interface de usuário realista para o jogo de cartas.
+Projeto: Aplicação de Álbum de Fotos Online:
+
+Escreva uma aplicação que permita aos usuários fazer upload, organizar e compartilhar suas fotos.
+Implemente álbuns personalizados e categorias para fotos.
+Adicione recursos de edição de fotos, como recorte e filtros.
+Desenvolva uma função de pesquisa para encontrar fotos por palavras-chave.
+Permita que os usuários compartilhem álbuns com amigos e familiares.
+Projeto: Aplicação de Gerenciamento de Tarefas de Equipe:
+
+Desenvolva uma aplicação de gerenciamento de tarefas de equipe que permita criar, atribuir e acompanhar o progresso das tarefas.
+Implemente uma interface de usuário para criar equipes e adicionar membros.
+Adicione recursos de priorização e prazos para as tarefas.
+Crie um painel de administração para gerenciar equipes e projetos.
+Integre notificações em tempo real para atualizações nas tarefas.
+Projeto: Blog Pessoal:
+
+Escreva uma aplicação de blog pessoal que permita ao usuário criar, editar e publicar postagens.
+Implemente categorias e tags para organizar as postagens.
+Adicione um sistema de comentários para interação dos leitores.
+Desenvolva um mecanismo de pesquisa para encontrar postagens específicas.
+Crie uma interface de administração para gerenciar postagens e comentários.
+Projeto: Jogo de Aventura de Texto:
+
+Crie um jogo de aventura de texto em que o jogador toma decisões que afetam o resultado da história.
+Implemente uma narrativa envolvente com múltiplos caminhos e finais.
+Adicione recursos de inventário e itens que o jogador pode coletar.
+Desenvolva um sistema de pontuação com base nas escolhas do jogador.
+Crie um sistema de save/load para permitir aos jogadores salvar e continuar a aventura.
+Projeto: Aplicação de Enquetes e Pesquisas:
+
+Desenvolva uma aplicação que permita criar e distribuir enquetes e pesquisas online.
+Implemente diferentes tipos de perguntas, como múltipla escolha e respostas abertas.
+Adicione recursos de análise e geração de relatórios para os resultados.
+Crie um sistema de votação anônima para as pesquisas.
+Permita o compartilhamento de pesquisas nas redes sociais.
+Projeto: Plataforma de Aprendizado Online:
+
+Escreva uma plataforma de aprendizado online com cursos, vídeos e quizzes.
+Implemente um sistema de registro e autenticação de usuários.
+Adicione um sistema de pagamento para acesso a cursos premium.
+Desenvolva um painel de administração para gerenciar cursos e usuários.
+Crie um sistema de recomendação de cursos com base no histórico do usuário.
+Projeto: Aplicação de Rastreamento de Pacotes:
+
+Crie uma aplicação que permita aos usuários rastrear pacotes enviados por serviços de entrega.
+Implemente a integração com serviços de entrega reais para obter informações em tempo real.
+Adicione notificações por e-mail para atualizações no status dos pacotes.
+Desenvolva uma interface de usuário para inserir e gerenciar números de rastreamento.
+Crie um histórico de rastreamento para o usuário.
+Projeto: Jogo de Perguntas e Respostas (Quiz):
+
+Desenvolva um jogo de perguntas e respostas (quiz) com múltipla escolha.
+Implemente um temporizador para limitar o tempo de resposta.
+Adicione um sistema de pontuação para acompanhar os pontos dos jogadores.
+Crie um banco de dados de perguntas e categorias para o quiz.
+Permita que os jogadores compartilhem seus resultados nas redes sociais.
+Projeto: Aplicação de Compartilhamento de Receitas:
+
+Escreva uma aplicação que permita aos usuários compartilhar e descobrir receitas culinárias.
+Implemente recursos de pesquisa por ingredientes e tipos de pratos.
+Adicione a capacidade de criar listas de compras a partir de receitas.
+Desenvolva um sistema de classificação e avaliação de receitas.
+Crie um sistema de comentários para as receitas compartilhadas.
+Projeto: Aplicação de Planejamento de Viagens:
+
+Crie uma aplicação de planejamento de viagens que permita ao usuário criar itinerários, reservar hotéis e registrar gastos.
+Implemente recursos de pesquisa por destinos e atrações turísticas.
+Adicione um sistema de mapas interativos para planejar rotas.
+Desenvolva uma função de compartilhamento de itinerários com outros viajantes.
+Crie um diário de viagem digital para registrar memórias e fotos de viagens.
+!
